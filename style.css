@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cinzel:wght@500&family=Kalam:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+body{
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Kalam', cursive;
+    font-size: 27px;
+    color: rgb(73, 48, 20);
+    padding: 40px;
+    margin: 15px;
+    background: rgb(158, 140, 140);
+    box-shadow: 5px 10px 10px 10px rgb(255, 255, 255);
+       
+}
+header {
+    padding: 60px;
+    text-align: center;
+    background-color: rgb(141, 94, 49);
+    color: rgb(247, 247, 247);
+    box-shadow: 10px 10px 10px 10px rgb(90, 80, 69);
+    
+}
+
+article > h2 {
+    background-color: rgb(192, 132, 64);
+    color: rgb(90, 75, 75);
+    margin: 40px;
+    padding: 5px;
+    font-family:'Courier New', Courier, monospace;  
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgb(90, 80, 69);
+}
+
+article > h3{
+    text-align: center;
+}
+
+article > p{
+    padding: 10px;
+    margin: 15px;
+    
+}
+
+
+nav > a{
+    color: rgb(255, 255, 255);
+    padding-left:  50px;
+}   
+  
+
+nav{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-shadow: -2px 3px 7px rgb(0, 0, 0) ;
+    background-color: rgb(143, 92, 45);
+    border-radius: 10px;
+         
+}  
+
+main > p{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+img{
+    box-shadow: 10px 10px 10px 10px rgb(90, 80, 69);
+    margin: auto;
+    display: block;
+
+}
+
+figure{
+   padding: 50px;
+}
+
+iframe {
+    margin: 15px;
+    border: 6px solid black;
+}
+figcaption{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
